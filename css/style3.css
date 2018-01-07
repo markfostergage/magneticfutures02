@@ -51,15 +51,6 @@ marquee{
             padding: 0px;
            
         }
-.wrapper_img {
-            position: fixed;
-           overflow: scroll;
-            margin-top: 5%; 
-            text-align: left;
-            height: 100vh;
-+            padding: 0px;
-           
-        }
 
 
 
@@ -152,7 +143,7 @@ a {
 }
 
 a:hover {
-    background-color: lightgreen;
+    background-color: yellow;
 }
 
 a:active {
@@ -219,8 +210,20 @@ color: white;
 }
 
 img {
-    width: 100vw;
-}
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 1vh;
+    }
+
+.wrapper_img {
+            position: fixed;
+           overflow: scroll;
+           width: 100vw;
+            margin-top: 5%; 
+           padding: 0px;
+           height: 75vh;
+           
+        }
 
 
 
